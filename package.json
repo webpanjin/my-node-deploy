@@ -1,0 +1,16 @@
+{
+  "name": "deploy-study",
+  "version": "1.0.0",
+  "description": "node实现自动化部署项目到服务器",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "node ./main.js",
+    "delold":"node ./del.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "archiver": "^5.3.0",
+    "node-ssh": "^8.0.0"
+  }
+}
